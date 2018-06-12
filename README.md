@@ -36,4 +36,5 @@ brew cask install visual-studio-code
 
 # anyenv
 git clone https://github.com/riywo/anyenv ~/.anyenv
+exec $SHELL -l
 ```
