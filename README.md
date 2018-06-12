@@ -10,5 +10,11 @@ brew tap homebrew/cask
 # chrome
 brew cask install google-chrome
 
+# ssh setting
+mkdir ~/.ssh
 
+# 中身はLastPassから
+vi ~/.ssh/id_rsa
+
+chmod 600 ~/.ssh/id_rsa 
 ```
