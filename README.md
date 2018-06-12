@@ -20,6 +20,11 @@ chmod 600 ~/.ssh/id_rsa
 
 # ime
 brew cask install google-japanese-ime
+## OS再起動
+sudo reboot
+
+# PC名変更
+# システム環境設定 > 共通 > コンピュータ名
 
 
 ```
