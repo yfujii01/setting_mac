@@ -30,4 +30,10 @@ sudo reboot
 curl -L https://raw.github.com/yfujii01/dotfiles/master/dotfiles.sh > ~/dotfiles.sh
 sh ~/dotfiles.sh
 exec $SHELL -l
+
+# vscode
+brew cask install visual-studio-code
+
+# anyenv
+git clone https://github.com/riywo/anyenv ~/.anyenv
 ```
