@@ -37,4 +37,13 @@ brew cask install visual-studio-code
 # anyenv
 git clone https://github.com/riywo/anyenv ~/.anyenv
 exec $SHELL -l
+
+# キーボード割当変更
+brew install Caskroom/cask/karabiner-elements
+
+brew install cmake
+git clone --depth 1 https://github.com/tekezo/Karabiner-Elements.git ~/.karabiner-e
+cd .karabiner-e/
+make
+
 ```
