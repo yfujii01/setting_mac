@@ -26,5 +26,8 @@ sudo reboot
 # PC名変更
 # システム環境設定 > 共通 > コンピュータ名
 
-
+# dotfiles
+curl -L https://raw.github.com/yfujii01/dotfiles/master/dotfiles.sh > ~/dotfiles.sh
+sh ~/dotfiles.sh
+exec $SHELL -l
 ```
