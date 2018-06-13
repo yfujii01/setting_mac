@@ -48,4 +48,11 @@ anyenv install nodenv
 anyenv install rbenv
 anyenv install pyenv
 brew cask install java
+exec $SHELL -l
+
+nodenv install 10.4.1
+$ nodenv global 10.4.1
+
+pyenv install 3.6.5
+pyenv global 3.6.5
 ```
