@@ -65,5 +65,16 @@ pyenv global 3.6.5
 rbenv install 2.5.1
 rbenv global 2.5.1
 
+# vagrant
+brew cask install virtualbox
+brew cask install vagrant
 
+# centos
+vagrant box add CentOS7_x64 https://github.com/tommy-muehle/puppet-vagrant-boxes/releases/download/1.1.0/centos-7.0-x86_64.box
+
+mkdir -p ~/VM/CentOS7_x64
+cd ~/VM/CentOS7_x64
+
+vagrant init CentOS7_x64
+vagrant up
 ```
