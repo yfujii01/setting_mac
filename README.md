@@ -41,4 +41,11 @@ exec $SHELL -l
 # キーボード割当変更
 brew install Caskroom/cask/karabiner-elements
 # fnとcapsを入れ替える
+
+
+# 言語インストール
+anyenv install nodenv
+anyenv install rbenv
+anyenv install pyenv
+brew cask install java8
 ```
