@@ -77,4 +77,12 @@ cd ~/VM/CentOS7_x64
 
 vagrant init CentOS7_x64
 vagrant up
+
+
+# docker
+brew cask install docker
+open /Applications/Docker.app
+## GUIで確認画面が表示される
+
+
 ```
