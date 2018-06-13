@@ -47,12 +47,23 @@ brew install Caskroom/cask/karabiner-elements
 anyenv install nodenv
 anyenv install rbenv
 anyenv install pyenv
-brew cask install java
+anyenv install jenv
 exec $SHELL -l
 
+brew tap caskroom/versions
+brew cask install java
+/usr/libexec/java_home -V
+jenv add $(/usr/libexec/java_home -v 10)
+jenv global 10.0
+
 nodenv install 10.4.1
-$ nodenv global 10.4.1
+nodenv global 10.4.1
 
 pyenv install 3.6.5
 pyenv global 3.6.5
+
+rbenv install 2.5.1
+rbenv global 2.5.1
+
+
 ```
