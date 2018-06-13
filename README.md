@@ -47,5 +47,5 @@ brew install Caskroom/cask/karabiner-elements
 anyenv install nodenv
 anyenv install rbenv
 anyenv install pyenv
-brew cask install java8
+brew cask install java
 ```
