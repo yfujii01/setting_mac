@@ -10,6 +10,9 @@ brew tap homebrew/cask
 # chrome
 brew cask install google-chrome
 
+# コマンド
+brew install wget
+
 # ssh setting
 mkdir ~/.ssh
 
