@@ -5,6 +5,9 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # cask
+## brew install caskがいるかも？
+## brew install ~~は動くが、brew cask listやbrew cask search ~~は失敗した
+## brewとか再インストールしたり色々して治った
 brew tap homebrew/cask
 
 # chrome
