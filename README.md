@@ -4,11 +4,22 @@
 # brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+# 最新のbrewではcaskが自動インストールらしいのでcaskを独自に入れない
 # cask
 ## brew install caskがいるかも？
 ## brew install ~~は動くが、brew cask listやbrew cask search ~~は失敗した
 ## brewとか再インストールしたり色々して治った
-brew tap homebrew/cask
+##brew tap homebrew/cask
+
+# gitは最初から入っているがbash_completion.dがないので入れる
+brew install git
+
+# terminal
+brew cask install iterm2
+
+brew install peco
+brew install ghq
+brew install hub
 
 # chrome
 brew cask install google-chrome
